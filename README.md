@@ -2,18 +2,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Setup Create-React-App with TypeScript,ESLint and Prettier
 
-[reference link](https://medium.com/@brygrill/create-react-app-with-typescript-eslint-prettier-and-github-actions-f3ce6a571c97)
-npx create-react-app my-app --template typescript
-yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-typescript eslint-plugin-jest
-yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-typescript@6.3.2 eslint-plugin-jest eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react-hooks eslint-plugin-react prettier eslint-config-prettier eslint-plugin-prettier
-yarn add -D prettier eslint-config-prettier eslint-plugin-prettier
--> copy config from .eslintrc.js
--> add to package.json the next "scripts": {
-  "format": "prettier --write src/**/*.ts{,x}",
-  "lint": "tsc --noEmit && eslint src/**/*.ts{,x}"
-}
-// use "yarn run format" to use prettier and "yarn run lint" to run eslint
-// p.s. if you use the reference link don't forget to add in .eslintrc.js the rule ("@typescript-eslint/camelcase": "off")
+[reference link](https://medium.com/@brygrill/create-react-app-with-typescript-eslint-prettier-and-github-actions-f3ce6a571c97)<br />
+npx create-react-app my-app --template typescript<br />
+yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-typescript eslint-plugin-jest<br />
+yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-typescript@6.3.2 eslint-plugin-jest eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react-hooks eslint-plugin-react prettier eslint-config-prettier eslint-plugin-prettier<br />
+yarn add -D prettier eslint-config-prettier eslint-plugin-prettier<br />
+-> copy config from .eslintrc.js<br />
+-> add to package.json the next "scripts": {<br />
+  "format": "prettier --write src/**/*.ts{,x}",<br />
+  "lint": "tsc --noEmit && eslint src/**/*.ts{,x}"<br />
+}<br />
+// use "yarn run format" to use prettier and "yarn run lint" to run eslint<br />
+// p.s. if you use the reference link don't forget to add in .eslintrc.js the rule ("@typescript-eslint/camelcase": "off")<br />
 
 ## Available Scripts
 
